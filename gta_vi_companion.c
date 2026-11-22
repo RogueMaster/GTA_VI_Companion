@@ -230,8 +230,12 @@ static void gta_show_menu(GtaApp* app, GtaScreen screen) {
     if(screen == ScreenSafeCategories) {
         submenu_set_header(app->menu, "Safe & Door Codes");
         for(uint8_t i = 0; i < 5; i++) {
-            snprintf(label, sizeof(label), "%s (%zu)",
-                     gta_safe_category_name(i), gta_safe_filter_count(i));
+            snprintf(
+                label,
+                sizeof(label),
+                "%s (%zu)",
+                gta_safe_category_name(i),
+                gta_safe_filter_count(i));
             gta_item(app, label, ItemSafeAll + i);
         }
         gta_item(app, "Random safe tips", ItemSafeTips);
@@ -242,8 +246,13 @@ static void gta_show_menu(GtaApp* app, GtaScreen screen) {
             const GtaSafeCode* entry = &gta_safe_codes[i];
             if(app->safe_category && entry->kind != (GtaSafeKind)(app->safe_category - 1))
                 continue;
-            snprintf(label, sizeof(label), "%s: %s%s", entry->name, entry->code,
-                     entry->status >= GtaSafeReported ? " [?]" : "");
+            snprintf(
+                label,
+                sizeof(label),
+                "%s: %s%s",
+                entry->name,
+                entry->code,
+                entry->status >= GtaSafeReported ? " [?]" : "");
             gta_item(app, label, ItemSafeRow + i);
         }
         if(app->safe_list_selection >= ItemSafeRow &&
@@ -252,7 +261,7 @@ static void gta_show_menu(GtaApp* app, GtaScreen screen) {
     } else if(screen == ScreenCollections || screen == ScreenCollectionGroup) {
         const bool root = screen == ScreenCollections;
         const GtaExploreSection* items = root ? gta_explore_sections :
-                                                 app->explore_group->children;
+                                                app->explore_group->children;
         const size_t count = root ? gta_explore_section_count : app->explore_group->child_count;
         submenu_set_header(app->menu, root ? "Collections" : app->explore_group->title);
         for(size_t i = 0; i < count; ++i) {
@@ -514,21 +523,32 @@ static void gta_money_glitch(GtaApp* app) {
 }
 static const char* gta_safe_status_name(GtaSafeStatus status) {
     switch(status) {
-    case GtaSafeTested: return "Guide-tested; not tested by this app";
-    case GtaSafeCorroborated: return "Multiple published reports";
-    case GtaSafeVariable: return "May differ by robbery/save";
-    case GtaSafeConflicting: return "Sources disagree; check clue";
-    case GtaSafeReported: return "Limited / single-source report";
-    default: return "Unverified";
+    case GtaSafeTested:
+        return "Guide-tested; not tested by this app";
+    case GtaSafeCorroborated:
+        return "Multiple published reports";
+    case GtaSafeVariable:
+        return "May differ by robbery/save";
+    case GtaSafeConflicting:
+        return "Sources disagree; check clue";
+    case GtaSafeReported:
+        return "Limited / single-source report";
+    default:
+        return "Unverified";
     }
 }
 static const char* gta_safe_kind_name(GtaSafeKind kind) {
     switch(kind) {
-    case GtaSafeMission: return "Mission safe";
-    case GtaSafeOperation: return "Gang / operation safe";
-    case GtaSafeDoor: return "Door or garage keypad";
-    case GtaSafePuzzle: return "Puzzle / other lock";
-    default: return "Code";
+    case GtaSafeMission:
+        return "Mission safe";
+    case GtaSafeOperation:
+        return "Gang / operation safe";
+    case GtaSafeDoor:
+        return "Door or garage keypad";
+    case GtaSafePuzzle:
+        return "Puzzle / other lock";
+    default:
+        return "Code";
     }
 }
 static void gta_safe_detail(GtaApp* app, size_t index) {
@@ -536,16 +556,23 @@ static void gta_safe_detail(GtaApp* app, size_t index) {
     const GtaSafeCode* entry = &gta_safe_codes[index];
     text_box_reset(app->text);
     furi_string_reset(app->content);
-    furi_string_cat_printf(app->content,
+    furi_string_cat_printf(
+        app->content,
         "%s\n\nCODE: %s\n\nRegion: %s\nType: %s\n\nWhere:\n%s\n\nClue / notes:\n%s\n\nStatus:\n%s",
-        entry->name, entry->code, entry->region, gta_safe_kind_name(entry->kind),
-        entry->where, entry->notes, gta_safe_status_name(entry->status));
+        entry->name,
+        entry->code,
+        entry->region,
+        gta_safe_kind_name(entry->kind),
+        entry->where,
+        entry->notes,
+        gta_safe_status_name(entry->status));
     gta_show_text(app, ScreenSafeDetail);
 }
 static void gta_safe_tips(GtaApp* app) {
     text_box_reset(app->text);
     furi_string_reset(app->content);
-    furi_string_cat_printf(app->content,
+    furi_string_cat_printf(
+        app->content,
         "Randomized safe codes\n\n"
         "This list collects published fixed or reported combinations. "
         "Not all map safes have a reusable code. Many ordinary store and bank robbery "
@@ -557,7 +584,9 @@ static void gta_safe_tips(GtaApp* app) {
         "Retain every leading zero. Some keypads accept five or six digits, "
         "and some computers accept words.\n\n"
         "Sticky bombs can force open some safes but attract enemies or police. "
-        "Locked mission doors and garage keypads may not respond to explosives.\n\n");
+        "Locked mission doors and garage keypads may not respond to explosives.\n\n"
+        "Entries are based on guides available 21 Nov 2026 and have not "
+        "been independently tested by this app's maintainers.");
     gta_show_text(app, ScreenSafeTips);
 }
 static bool gta_event(void* context, uint32_t event) {
