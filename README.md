@@ -20,21 +20,21 @@ The home screen has 16 icons across two pages. Icons appear in this order, from 
 
 | Menu | What you'll find |
 | --- | --- |
-| **Infinite Money Glitch** | A five-step walkthrough of the reported Apollo Aggregates loot-respawn method, including personal-vehicle bag storage, three possible reset approaches, a separate-slot manual save/reload sequence, and cash-out locations. |
+| **Infinite Money Glitch** | A five-step cars-and-cocaine walkthrough using a registered 10-slot van and registered second car, warehouse respawn pickups, an explicitly unverified two-car Dunk drop-off claim, confirmed-balance checks, and manual-save fallback. |
 | **PS5 Cheats** | Reported PlayStation controller sequences, effects, unlock prerequisites, and unverified-input labels. |
 | **Xbox Cheats** | Reported Xbox inputs and effects, including confidence notes for converted sequences. |
-| **Collections** | Checklists and directions for collectible cards, WAiNK scans, art, treasure, flamingos, publications, styles, **43 reported special-weapon pickups and variants**, **32 individually tracked optional missions**, **6 Messages in Bottles**, **26 known meteorite sites**, **5 Missing Persons investigation stages**, an Endings checklist with 12 documented routes and proposed variations, and stunt challenges, plus a dedicated **Activities / Robberies** grouping for bank jobs, operations, store robberies, drone trials, shooting, racing, arcade games, pool, golf, and challenge milestones. |
-| **Safe & Door Codes** | 44 reported safe combinations, door codes, and puzzle passwords, with location clues and source-confidence labels. |
+| **Collections** | Checklists and directions for collectible cards, WAiNK scans, art, treasure, flamingos, publications, styles, **43 reported special-weapon pickups and variants**, **32 individually tracked optional missions**, **6 Messages in Bottles**, **58 guide-reported meteorite sites**, **5 Missing Persons investigation stages**, 12 endings and proposed variations, stunt challenges, and 17 location search leads. **Activities / Robberies** covers bank jobs, operations, store robberies, drone trials, shooting, racing, arcade games, pool, golf, **100 numbered basketball hoops**, and challenge milestones. |
+| **Safe & Door Codes** | 46 reported safe combinations, door codes, and puzzle passwords, with location clues and source-confidence labels. |
 | **Secret Missions** | 16 checkable optional encounters, hidden weapon finds, cash routes, stat rewards, and Easter eggs, grouped by the earliest reported story chapter. Uncertain unlocks appear at the end. |
-| **Randy's Wish List** | 19 vehicle requests with reported pickup clues, access conditions, and delivery progress. |
+| **Randy's Wish List** | 22 vehicle requests with reported pickup clues, access conditions, and delivery progress. |
 | **Moses Drop-Offs** | Seven reported vehicle delivery jobs and their location clues. |
-| **Wyman's Classic Cars** | Five restoration projects covering 15 wreck parts and the final pickup. |
-| **Standout Vehicles** | 105 unusual vehicles and variants, with parking, garage, dock, and landmark clues where published. |
+| **Wyman's Classic Cars** | Four restoration checklists with directions to 15 wreck parts, plus a checklist entry for claiming the final car. |
+| **Standout Vehicles** | 280 trackable vehicle entries, including parked variants, the Annis Pixel Elegy in a Capri container (existing checklist entry enriched), the Maibatsu Sunset Sanchez at Grayson, aircraft, watercraft, mission and stunt rewards, and reported leads. |
 | **Garages** | 15 garage entries with location, capacity, acquisition cost, or unlock requirements where known. |
-| **Houses / Cribs** | Four story safehouses with locations, chapter access, and facilities. |
-| **Dispatch** | Region-based browsing of 839 indexed pickups and activities, with progress tracking and a next-unchecked shortcut. |
-| **Mock Loaders** | A gallery of 45 full-screen images: 30 GTA VI scenes and 15 Dungeons & Dolphins scenes. |
-| **Mock Loader Settings** | Separate enable/disable controls for the GTA VI and Dungeons & Dolphins startup image sets. |
+| **Houses / Cribs** | Five story safehouses with locations, chapter access, and facilities. |
+| **Dispatch** | Region-based browsing of 865 indexed pickups and activities, with progress tracking and a next-unchecked shortcut. |
+| **Mock Loaders** | Gallery of the enabled image sets. The app ships 30 GTA VI and 15 Dungeons & Dolphins images. |
+| **Mock Loader Settings** | Enable or disable each image set in the gallery and startup rotation. |
 | **Quick guide / warnings** | Button controls, cheat entry, saving precautions, achievement warnings, flamingo identification, style scanning, and underwater search tips. |
 
 ## Using the app
@@ -68,35 +68,39 @@ For **Secret Missions**, press **OK** to read the walkthrough, **Right** to chec
 
 Collection and Dispatch checkmarks are saved in **`/ext/apps_data/gta_vi_cheats/`** using `progress2.a` and `progress2.b`. When upgrading from an older installation, the app can import checks from `progress.a` and `progress.b` if the newer save files are not present. The original files remain untouched as a backup; progress made after the upgrade is stored in the newer files and will not be visible if you revert to an older app build.
 
-**Secret Missions** keep their own `secrets.a` and `secrets.b` files. Back up the app's SD-card data directory before changing firmware, formatting the card, or reverting to an older app build.
+**Secret Missions** keep their own `secrets.a` and `secrets.b` files. **Mock Loader Settings** use `mock_loaders.a` and `mock_loaders.b`. Back up the app's SD-card data directory before changing firmware, formatting the card, or reverting to an older app build.
 
 ### Region-aware Dispatch
 
-Dispatch groups **839 location stops** into **Vice City**, **Leonida Keys**, **Grassrivers**, **Port Gellhorn**, **Ambrosia**, **Mount Kalaga**, **Other areas**, and **All regions**.
+Dispatch groups **865 location stops** into **Vice City**, **Leonida Keys**, **Grassrivers**, **Port Gellhorn**, **Ambrosia**, **Mount Kalaga**, **Other areas**, and **All regions**.
 
-Choose a region to browse its stops. Press **OK** to change a stop's checkmark, **Right** to jump to the next unchecked stop, or **Back** to choose another region. Checks are shared with the corresponding collection or vehicle-request list when that item is indexed in Dispatch.
+Choose a region to open its first unchecked stop. Press **OK** to change the current stop's checkmark, **Right** to jump to the next unchecked stop, or **Back** to choose another region. To revisit a completed stop, open its collection or vehicle entry. Checkmarks are shared between the two menus.
 
-**Other areas** includes places outside the six main regions and locations with uncertain region assignments. Alternate spawns can appear under more than one region. The Dispatch list does not include Standout Vehicles or every Randy's Wish List entry; those are accessible through their own menus.
+**Other areas** includes places outside the six main regions and locations with uncertain region assignments. Alternate spawns can appear under more than one region. Dispatch covers all seven Moses drop-offs and 16 of the 22 Randy requests. The home menu has the complete in-app vehicle lists and Standout catalog.
 
 ## Infinite Money Glitch
 
-The guide describes a **reported** Story Mode loot-respawn method at **Apollo Aggregates, east or northeast of Hamlet**. The reported landmark is a **red barn/warehouse with a van decorated with teddy bears**. The process depends on collecting loot, placing bags in a suitable vehicle, refreshing the area, and cashing out at a fence or lockup. It is not an instant-money cheat.
+The in-app guide now prioritizes the **cars-and-cocaine warehouse loop** using vehicle storage rather than an immediate manual-save reset. The main location is **Apollo Aggregates**, the red warehouse east of Hamlet in South Vice-Dale County, beside the teddy-bear van. The method is an exploit reported in **Story Mode**, not an official cheat code, and may change with title updates.
 
-1. **Locate the warehouse.** Travel to Apollo Aggregates in free roam with a **personal vehicle** that has cargo storage. Make a backup save before testing the reported method.
-2. **Collect valuables.** Search the teddy-bear van outside, the van inside, and the warehouse/office for reported cash, cocaine, and other loot. Keep track of what actually respawns.
-3. **Store both bags.** Carry **both loot bags** to your **personal vehicle** and verify that both are in its storage **before** trying a reset. The guide warns that nearby or generic vehicles may not persist.
-4. **Refresh the area (choose one method).** Published guides describe **(a)** driving roughly half a mile away and returning, **(b)** switching Lucia → Jason → Lucia after the relevant chapter unlock, with Jason far enough away, or **(c)** opening **Pause → Game → Save Game** after stowing both bags, making a **manual save in a separate slot**, reloading that exact save, and returning to Apollo Aggregates. Check that the stored bags are still present and the site actually refreshed before repeating.
-5. **Sell or deposit.** Repeat only if loot respawns, then use an unlocked fence or **Brian's Lockup**, for which `7700` is a reported keypad code. Cash-out availability and payouts can differ by story progress.
+1. **Register both vehicles before collecting.** Bring a **10-bag-slot van or delivery truck** and, for the experimental two-car swap, a **6-bag-slot car**. **Both must be owned/registered**, including the second car; register a stolen vehicle using the **Register** service at a Pay 'n' Spray or through Moses before storing cocaine. Do not rely on an unregistered stolen car retaining its cargo. Keep an untouched manual save. Chapter 2 is recommended to avoid Chapter 1 story-related money loss.
+2. **Collect cocaine and cash.** Empty the teddy-bear van outside, the parked van inside, the office table, and the office safe. Retrieve the cash-filled stash bag from the central open van. Store filled bags in the 10-slot van and the second car. **Do not drive away the interior warehouse van**, which is used as a repeat pickup.
+3. **Refresh the warehouse by switching characters.** Keep the collected cocaine stored in your vehicles, switch to the other playable character, then switch back and return to Apollo Aggregates. Recheck the indoor van and office safe for respawned cocaine; refill your vehicles and repeat as needed. If the loot does not reset, the older **personal-vehicle manual save/reload** method remains a fallback; always use a separate save slot.
+4. **Try the two-car Dunk's trailer swap (unverified).** Back the full 10-slot van up to Dunk's drop-off and unload it, move it away, then reverse the filled 6-slot car into place and unload. A community poster claims that repeated character pickup/drop-off after swapping vehicles lets the storage keep paying, citing **$13,200 per drop-off**. **No independent confirmation of actual credited payments was found**; reports warn that the counter can change without payment. Do not assume the amount is repeatable.
+5. **Cash out and verify.** Check the real bank balance, pending sales and safehouse mailbox. If the two-car claim fails, use the repeatable warehouse pickup and sell full bags through a story-unlocked fence instead. Early-game buyers include Donnie or Dunk; **Tyrone** reportedly offers the strongest narcotics rate starting in Chapter 3. **Brian's Lockup** in Key Lento has a reported keypad code of `7700` and may pay after several in-game days. Fence demand, payout, and availability vary.
 
-**Caution:** This is a community-reported exploit, **not a guaranteed money cheat**. Chapter 1 transitions may discard funds, and respawn behavior varies with game progress and updates. The in-app guide carries fuller steps; keep an untouched backup save.
+**Evidence distinction:** Published guides describe the 10-slot van, cocaine pickup, and vehicle-loading route. This walkthrough uses **switching characters and returning to refresh the warehouse**; exact respawn behavior may vary by save or game version. Other guides describe leaving the area instead. The two-car Dunk payout is **a single community claim**, not a verified working exploit. A separate vehicle save/reload loop remains a fallback. Be cautious with autosaves and any bag that appears to remain in storage after selling.
 
 ### Money-glitch sources
 
 - [VICE - Apollo Aggregates loot method](https://www.vice.com/en/article/gta-6-money-glitch/) and [character switching](https://www.vice.com/en/article/how-to-switch-characters-in-gta-6/).
+- [Games.gg - registered vehicle and Register service at Pay 'n' Spray or Moses](https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-money-glitch-warehouse-location-how-to-repeat/).
 - [Insider Gaming - leave-area reset](https://insider-gaming.com/gta-6-infinite-money-glitch/).
 - [KeenGamer - save/reload method](https://www.keengamer.com/articles/guides/gta-6-unlimited-money-glitch-guide/).
 - [Guías GTA 6 - Brian's Lockup method](https://guiasgta6.com/en/guides/gta-6-unlimited-money-glitch-brians-lockup/).
 - [Reddit r/gtaglitches - community discussion](https://www.reddit.com/r/gtaglitches/comments/1y1gou5/gta_6_unlimited_money_red_barn_apollo_aggregates/).
+- [GTA VI Discussion - tested 10-slot van and drive-away cocaine loop](https://gtavidiscussion.com/guides/gta-vi-money-glitch-unlimited-money/).
+- [Reddit r/GTA6unmoderated - unverified two-vehicle Dunk payout claim](https://www.reddit.com/r/GTA6unmoderated/comments/1y1qu37/found_this_new_money_glitch/).
+- [Reddit r/GTA6unmoderated - warehouse + two-character car-storage report](https://www.reddit.com/r/GTA6unmoderated/comments/1y24h5k/money_glitch_apollo_warehouse_bag_dupe/).
 
 ## Secret Missions and Easter eggs
 
@@ -153,7 +157,7 @@ These are **guide-reported story windows and rewards**. Check the in-game phone,
 
 ## Safe & Door Codes
 
-An offline catalog of **44 published codes and passwords**. Choose **All codes**, **Mission safes**, **Operations**, **Doors / garages**, **Puzzles / other**, **Browse by area**, or **Random safe tips**. The area browser groups codes into Vice-Dale / Balsero, Keys / islands, Port Gellhorn, Swamps / Grassrivers, Mariana County, Inland / north, and Other areas. Each entry shows the published combination, area, landmark or access instructions, story context when known, and a confidence label. Codes appear at the start of list rows so they are visible on the Flipper's small display.
+An offline catalog of **46 published codes and passwords**. Choose **All codes**, **Mission safes**, **Operations**, **Doors / garages**, **Puzzles / other**, **Browse by area**, or **Random safe tips**. The area browser groups codes into Vice-Dale / Balsero, Keys / islands, Port Gellhorn, Swamps / Grassrivers, Mariana County, Inland / north, and Other areas. Each entry shows the published combination, area, landmark or access instructions, story context when known, and a confidence label. Codes appear at the start of list rows so they are visible on the Flipper's small display.
 
 **Weapon access:** Black Eagle's Balsero warehouse office uses `789987`, and the safe inside uses `031462` to obtain the Kalinga .50. The Pelican Valley research outpost uses password `CLEAVES`, safe `0072`, and boathouse keypad `0212` for the Crabshack VF5. Published bunker clues connect the island door (`010317`) and safe (`2975`) to the IAA Black Site hatch (`085355`), reportedly holding the Cold War 556. The Marbelle Hotel safe (`955214`) is reported to contain a collectible watch. These combinations are also listed in the relevant weapon details. The Black Eagle M306 TMR has a separate reported access route through the stacked boxes and fence.
 
@@ -162,11 +166,13 @@ An offline catalog of **44 published codes and passwords**. Choose **All codes**
 | --- | ---: | --- |
 | **Mission safes** | **8** | Delights Cabaret `2008`; Donovan Banks & Co. `0104`. |
 | **Illegal Operations** | **14** | Nova Auto Junkyard `7777`; Kingpin Bowling `0300` (conflicting report). |
-| **Doors / garages** | **13** | Brian's Lockup `7700`; Key Lento Party House `092319`; Mount Kalaga Tower `69185` (conflicting report). |
+| **Doors / garages** | **15** | Brian's Lockup `7700`; Key Lento Party House `092319`; Mount Kalaga Tower `69185` (conflicting report). |
 | **Puzzles / other** | **9** | Pelican Valley research codes and two text passwords. |
-| **Total** | **44** | Four- to six-digit PINs and text passwords. |
+| **Total** | **46** | Four- to six-digit PINs and text passwords. |
 
-**Cross-referenced pickups:** At **Kingpin Bowling** in Port Gellhorn, the **Gutterball Moreland 850 shotgun is on the northeast pool table**. The nearby **northeast office safe** (reported `0300`, with `0330` in a conflicting guide) is **separate cash loot**; the southeast room also holds a reported luxury watch. At the **Cottonmouth Lake trailer** on the southwest spit, collectible **Laki Maivia (Bronze)** is in the **safe beneath the kitchen microwave**, opened with `44017`. The highlighted bedroom-wall photos/postcards give the clue. This card and safe already have entries; do not count either twice.
+At **Father Scrumpy's Red Apple Orchard**, enter `360782` at the farmhouse garage to claim the **Applesauce Bobcat**. At **Southside Storage**, enter `1010` after photographing all five **1010 Murals** to claim the **1010 Cheetah**. Both vehicles have entries in Standout Vehicles.
+
+At **Kingpin Bowling** in Port Gellhorn, the **Gutterball Moreland 850 shotgun is on the northeast pool table**. The **northeast office safe** (reported `0300`, with `0330` in a conflicting guide) holds cash and the southeast room holds the **Crowex Octane 'Orca'** luxury watch. At the **Cottonmouth Lake trailer** on the southwest spit, collectible **Laki Maivia (Bronze)** is in the **safe beneath the kitchen microwave**, opened with `44017`. The highlighted bedroom-wall photos/postcards give the clue. This card and safe already have entries; do not count either twice. [Kingpin Bowling watch](https://gta6.house/library/items/crowex-octane-orca-luxury-watch)
 
 **Vanessa's pink Pfister Growler:** Before **Chapter 3 ends**, inspect the memorial photo (**Muffins**), vanity sketch (**Queen**), and number **15** on Boobie Ike's laptop, enter `MuffinsQueen15`, and **read the WhatsUp message**. Then find the pink-bow garage on **Del Rio Blvd, La Perle**, through the run-down motel lot past Aline's Thrift Store near Auntie's Place; enter `92665` to claim the car. The garage keypad may not activate before reading the message. Access may be lost when Chapter 4 begins; the vehicle has its own existing Standout checklist entry. These are published walkthrough claims, not guaranteed access conditions.
 
@@ -205,6 +211,8 @@ Under **Collections → Special Weapons**, browse **43 individual guide-reported
 Example searches include the **Assassin Nipper .38** on a Permit Keys wreck, the **Unpacked Comshot 12** inside a Key Lento house, the **Drug Mule KZ-59** near a sunken Riquezas Keys speedboat, and the **Deever Tech GLR40** plus **Cockroach Xtreme 556** at the Sunrise Motel in Tequesta. These are reported community discoveries, not guaranteed spawns.
 
 The expanded catalog also tracks **Kingfishers Akulus** (Sunrise RV Park), **Chromium W-10** (La Perle Trap House), **Zodiac Nipper .38** (Ocean Beach Lab), **Quarter Mile ES9** (Chatfield Storage on Waxman Island), **Killtelligence SM-69** (Bret Vogel's hunting strand), **Shark Knife** (a shark cage north of Saint Attaway Islands), **The Patriarch DRX** (submerged vehicle southwest of Kalaga Reservoir), **Deadringer 1992** and **Money Bag 1992** (Moreau River mobile-home area), **Cargo H&L .38** (yellow Scoop container at Port Vice City), **Couch Potato Mustang .357** (suspended couch off Tanglewood Lane), and **Pete's KZ-59 Assault Rifle** (Sundown Private Airfield hangar). These named variants are **guide-reported leads**. Some have broad search areas, conflicting variant names, or limited independent verification; do not interpret all 43 as confirmed free pickups.
+
+**Updated pickup directions:** The **Couch Potato Mustang .357** is hidden in a hanging couch by a mobile home off Tanglewood Ln in Port Gellhorn. Shoot the supporting ropes, then sit on the fallen couch to claim the revolver. The *Bombazo!* publication also has a copy at the Formosa Ave apartments in Hamlet, inside the second ground-floor unit from the right (on the toilet).
 
 **Keep rewards and codes distinct:** The **Gutterball Moreland 850** is on the northeast **pool table**, not in the Kingpin Bowling office safe. **Pete's KZ-59** is on the hangar backroom **table**, not in the `3718` safe. **Killtelligence SM-69** is described as a hunting-quest reward, not an Ammu-Nation purchase. Named shop-exclusive variants should not be mistaken for world pickups.
 
@@ -256,30 +264,37 @@ Select **Collections** to browse categories and individual sets. Each entry prov
 
 | Collection or activity | Content |
 | --- | --- |
-| **Collectible Cards** | **480 cards across 18 sets**, organized by card set with pickup clues. The John Morgan (Dusty Pink) card has a reported Casanova Island area; its exact pickup is unconfirmed. |
+| **Collectible Cards** | **480 cards across 18 sets**, organized by card set with pickup clues. John Morgan (Dusty Pink) is reported on a floor-level poster at the back of the cream villa's garage on Casanova Island. |
 | **WAiNK** | **31 landmarks**, **35 curiosities**, **23 sculptures**, and **15 mapped No Flusher tags**, with identifying landmarks and scan instructions where available. |
 | **Peewees Billboards** | **4 roadside billboards** with highway, interchange, and nearby-business clues, plus the reported Belville reward puzzle. |
 | **AHOL Street Art** | **112 art scans** organized by art type, including an option to mark a whole type complete. |
-| **1010 Murals** | **5 photo locations** and framing clues. |
-| **Kenton's Treasures** | **7 named treasure sets**, now with item-by-item lists and dive-site clues; the separate *Del Ocio* tutorial wreck has 10 doubloons and is not a set. |
+| **1010 Murals** | **5 photo locations** and framing clues. The reported completion reward is the 1010 Cheetah at Southside Storage, code `1010`. |
+| **Kenton's Treasures** | **7 named treasure sets** with item lists and dive-site clues. Four sets have additional directions to individual relics within the wrecks. |
 | **Underwater Discoveries** | **6 named shipwrecks**, now with piece counts. Belpoint Strait and Bobcat Dive Site are treasure-set dives, but **do not** count among these 33 discoveries. |
-| **Magazines, Books & Comics** | **26 publication entries**, with alternate pickup copies and cross-references to nearby cards, garages, and weapons. |
+| **Magazines, Books & Comics** | **27 reading entries**, including *Law & Litigation in Leonida*. That Hamlet copy has a published location and an unconfirmed contribution to the game's 27-title counter. |
 | **Book Swaps** | **7 Little Library locations**. |
 | **Meditations** | **18 character-specific completions** across **10 places**, with separate Jason and Lucia entries when applicable. |
-| **Cocaine Flamingos** | **30 reported pickups**, including Capri, Key Lento, and Belpoint directions. Look for black-and-white-beaked figures; black-and-yellow-beaked ones are decorative according to the guide. |
+| **Cocaine Flamingos** | **41 reported pickups**, including the Cottonmouth trailer marsh, Watson Bay's damaged wall, a Capri grill, a Port Gellhorn highway house, and the Mariana County sunburst doorway. Look for black-and-white beaks. |
 | **Unique Playlists** | **2 playlists** and **5 related poster locations**. |
-| **Discovered Styles** | **21 clothing and cosmetic discoveries**, including watches, the Backyard Wrestling Belt, and Luchadora tattoos; some require a phone magazine scan or the correct character. |
+| **Discovered Styles** | **35 checklist entries** across the four submenus. Jason's Magazine Styles has **4 of 13**, Lucia's has **6 of 15**, Magazine Tattoos has **12 of 17**, and Luxury Watches has **13 location entries** against the game's 34-watch total. The Bobby Ambrose watch is a documented Chapter 3 reward with unverified counter credit. |
 | **Optional Missions** | **32 mission and side-activity entries**, with character, earliest reported chapter, missability, and reward clues. Distinct from the Secret Missions home-menu guide. |
-| **Messages in Bottles** | **6 optional reading finds** in broad western/northwestern Key Lento and Shoeless Keys search areas, independent of publications and Book Swaps. |
+| **Messages in Bottles** | **6 numbered shoreline pickups** around Key Lento and the Shoeless Keys. These have their own checklist and do not count toward publications or Book Swaps. |
 | **Missing Persons investigation** | **5 checkable investigation stages**: Starlet Motel poster and warehouse, three missing-tourist reports, and the optional warehouse/mine finale. The guide has **three victims, not five**. |
-| **Meteorite Chunks** | **26 guide-reported locations** (including five distinct Selkie Hole tunnel finds). This is a known-location list, not a confirmed total or 100%-completion requirement. |
+| **Meteorite Chunks** | **58 guide-reported locations**, including five Selkie Hole tunnel finds, both C0-B8 impact craters, the Mount Kalaga crash camp, and separate grass-edge and tideline pickups at the Capri boat party. The full game total is unconfirmed. |
 | **Stunt Jumps** | **130 launch points** grouped by county, with reported launch directions and stunt goals. |
 | **Under the Bridge** | **202 bridge crossings**, with individual spans and nearby landmarks. |
 | **Knife Flights** | **40 aircraft gaps**. |
 | **Base Jumps** | **25 jump starts** with published par-time notes where available. |
+| **Location Search Leads** | **17 checkable leads** for map pins that may match an existing pickup or still need their unlock name or counter credit verified. Includes the Underwater Hotel off Key Lento and Halifax's custom '32 Hustler. |
 | **Endings** | **12 finale outcomes and proposed variations**: nine reported outcomes or epilogues and three speculative savings-based variants, each with story choices, suggested prerequisites, and confidence notes. |
 
-**Meteorite Chunks:** The checklist covers 26 guide-reported sites, including five underwater pieces in the Selkie Hole tunnels, two pieces on an SOS island, and clusters in the Sandbars and Frampton Islands. These are known locations, not a confirmed full collection count or 100% requirement. Use [Tech4Gamers' locations guide](https://gta.tech4gamers.com/gta-6/collectibles/meteorite-chunks/) or [GTA6Bugs' meteorite guide](https://gta6bugs.com/collectibles/meteorites) for the broader routes.
+**Newer meteorite map leads** add the Watson Bay beach dinghy, several different Key Lento tree and rock pickups, a Capri under-dock fragment, Ambrosia river rocks, Port Gellhorn shoreline finds and a Waning Sands waterside campsite. These are guide-reported map points, not an established final total. [GTABase meteorite map](https://www.gtabase.com/gta-6/map/?feature=meteorite).
+
+**Meteorite Chunks** include the five Selkie Hole tunnel finds, two pieces on an SOS island, and locations at the Sandbars and Frampton Islands. New clues cover the beach north of the Derelict Spy Vessel, Dudz Island's metal structure, the Capri beached whale, and the C0-B8 Debris and Fairing craters. [Named meteorite guide](https://gta.tech4gamers.com/gta-6/collectibles/meteorite-chunks/) and [meteorite map pins](https://www.gtabase.com/gta-6/map/?feature=meteorite).
+
+**New watch pickups:** Crowex Octane Midas at Leonida Carrier Warehouse; Novak Laurent Argonaut at Kamar Devon Community Center; B&G Ark Royal Quantum at Watson Bay Safehouse; Crowex Octane Elite at Palmer Fishing Warehouse. An existing B&G Ark Royal Ashore entry now notes alternate gang-operation locations without a second progress checkbox. [Watch research](https://leonipedia.com/guides/luxury-watches/).
+
+**Discovered Styles** includes the Cowboy Horseshoe Mustache and Tiger Eyes makeup, the Freedom Raft and Home Street Home tattoo magazines, and the B&G Ark Royal Ashore watch. The Capri bedroom and Key Lento VR Gamer house safe are tracked as watch location leads while their models are unconfirmed. [Magazine pins](https://www.gtabase.com/gta-6/map/?feature=magazine) and [luxury watch pins](https://www.gtabase.com/gta-6/map/?feature=luxury-watch).
 
 **Missing Persons (story spoilers):** Start with the poster at the Starlet Motel and the warehouse across from Moses' garage. Inspect the warehouse clues, then follow leads at the pink `PRTYGRL` car in the junkyard, the trailer near the water tower, and the submerged car at Wild Hog Point. A final warehouse/mine investigation follows the three missing-person reports. See [KeenGamer's walkthrough](https://www.keengamer.com/articles/guides/gta-6-all-missing-persons-locations-and-serial-killer-walkthrough/) and [GTAXTREME's location guide](https://www.gta-xtreme.com/en/gta-6-missing-persons-locations).
 
@@ -295,7 +310,7 @@ Select **Collections** to browse categories and individual sets. Each entry prov
 
 **Efficient shared-location searches:** The Key Lento **Dolphin Dr party house** may yield *Peche*, **Lionel Taber** card, and access to a garage associated with code `092319`. The **Sunset Dr waterfront house** contains a reported *Trigger Happy* copy and **Dartanyon Pearson** card. A **wooded lookout east of Kalaga Reservoir** may yield *11:59* and a **Laird 350**. These are independent finds/checkmarks even when they share a stop. The **Laki Maivia (Bronze)** card in the Cottonmouth Lake trailer is in the **microwave-side safe**, `44017` (bedroom-wall picture/postcard clue).
 
-**Messages in Bottles:** The checklist lists two broad western Key Lento areas, two northwestern Key Lento areas, one area southwest of Shoeless Keys, and one in Shoeless Keys. The guide gives broad search areas rather than exact coordinates; check the item description before marking each bottle found. These six readings are **separate from magazines, books, comics, and Book Swaps**.
+**Messages in Bottles** follows the numbers written on the six notes. Find note 1 beside the blue boat wreck, note 2 near the south end of the long narrow island, note 3 among rocks on a small sandbar, note 4 on the wedge-shaped sandbar, note 5 on the northeast shore of the curved island, and note 6 on the hook-shaped mangrove island. Examine the bottle on land to read its note. [Numbered walkthrough](https://itemlevel.net/gta-6-all-6-messages-in-bottles-locations-in-the-shoeless-keys-sunken-boat-mystery/) and [bottle map pins](https://www.gtabase.com/gta-6/map/?feature=message-bottle).
 
 **Stunts:** Stunt Jumps, Under the Bridge, Knife Flights, and Base Jumps account for **397 listed challenges**. Published completion guides report that **300** count toward the game's 100% requirement. Mark each stunt in the companion after completing it in-game.
 
@@ -309,7 +324,12 @@ Select **Collections** to browse categories and individual sets. Each entry prov
 - [GTA Six Map - WAiNK curiosities](https://www.gtasixmap.com/guides/waink-curiosities) and [sculptures](https://www.gtasixmap.com/guides/waink-sculptures); [The Games Wiki - curiosities](https://thegameswiki.com/gta6/wiki/curiosities), [sculptures](https://thegameswiki.com/gta6/wiki/sculptures), and [AHOL Street Art](https://thegameswiki.com/gta6/wiki/ahol-street-art).
 - [GTA 6 Everything - Peewees billboards](https://www.gta6everything.com/activities/peewees-billboards), [Push Square - billboard locations and prize puzzle](https://www.pushsquare.com/guides/gta-6-peewees-billboard-locations-and-grand-prize-puzzle-solution), and [The Games Wiki - billboard locations](https://thegameswiki.com/gta6/wiki/peewee-billboards).
 - [Nexzyapp - Kenton's Treasures](https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/kentons-treasures).
+- [GamerHour - Ética Laxa](https://gamerhour.net/guides/all-nuestra-senora-de-la-etica-laxa-treasures-gta-6/), [La Noche](https://gamerhour.net/locations/gta-6-all-nuestra-senora-de-la-noche-treasures-locations/), [Santa Sierra](https://gamerhour.net/locations/gta-6-all-6-urca-de-santa-sierra-treasures-locations/), and [Lujuriosa](https://gamerhour.net/locations/gta-6-all-6-nuestra-senora-lujuriosa-treasures-locations/).
+- [GTA Base - meteorite pins](https://www.gtabase.com/gta-6/map/?feature=meteorite), [GTA Scoop - Mount Kalaga crash route](https://gtascoop.com/guides/gta-6-meteorite-locations/), and [GTA6RealMap - Cottonmouth Lake flamingo](https://gta6realmap.com/cocaine-flamingos-and-cards).
+- [PowerPyx - Bobby Ambrose watch](https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/), [Leonipedia - Marbelle Hotel directions](https://leonipedia.com/guides/luxury-watches/), and [GTA Base - watch pins](https://www.gtabase.com/gta-6/map/?feature=luxury-watch).
+- [GTA Base - magazine pins](https://www.gtabase.com/gta-6/map/?feature=magazine), [GTA6 GPS - Underwater Hotel](https://gta6gps.com/?p=gamersky-917805), [TrovePin - Maroon Key treasure](https://trovepin.com/#loc=gs:261:915432), and [TrovePin - Key Lento treasure](https://trovepin.com/#loc=gs:261:915433).
 - [Vice City DB - Discovered Styles](https://vicecitydb.org/collectibles/discovered-styles), [GTA6 House - Marbelle watch](https://gta6.house/library/items/crowex-ambassador-breakfast-collectibles-watch), and [PowerPyx - Kingpin Bowling watch](https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/).
+- [Nexzy - John Morgan card variants](https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/vice-city-manatees-cards), [GTA Base - breakable flamingo pins under Hidden Packages](https://www.gtabase.com/gta-6/map/?feature=hidden-packages), and [Hamlet book pin](https://www.gtabase.com/gta-6/map/?feature=magazine#magazine-065).
 
 
 **Publication chapter cutoffs:** The five copies in Jason's Key Lento house become unavailable after Chapter 1, the two Starlet Motel copies after Chapter 2, and the two Bayside Apartment copies after Chapter 3. These are **missable copies**, not necessarily permanently missable titles; alternate copies may exist. Check these locations before advancing the story. See [PowerPyx's publication guide](https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/) and the [Key Lento route](https://www.pushsquare.com/guides/gta-6-key-lento-collectibles-and-secrets-walkthrough).
@@ -335,9 +355,10 @@ The **Collections > Activities / Robberies** group contains guide-reported targe
 | Pool Opponents | 7 | Beat at least **5/7** different opponents. |
 | Golf Courses | 5 total: 3 mini, 2 full | Play **2/3 mini golf** courses. The two regular golf courses are optional reference entries. |
 | Unique Race Venues | 13 site leads covering 40 races | **30/40 unique races** needed for 100%; a checked venue means **visited**, not that its races are all won. Individual race names were not published. |
-| Basketball Hoops (partial) | 73 guide-mapped location clues | **90/100 hoops** required for reported 100% threshold. Score at distinct numbered baskets; visiting without scoring does not count. Locations are still a partial guide to all 100. |
+| Basketball Hoops | 100 individually numbered baskets | **90/100 hoops** required for the reported 100% threshold. Score at each distinct basket you check. |
+| Hoop Search Leads | 9 older guides' location clues | Earlier checkmarks remain available here while the numbered match for each lead is unconfirmed. |
 
-**Basketball Hoops:** The guide contains **73 individually checkable locations**. Published completion guides report a target of scoring at **90 of 100 hoops**. Pick up a ball near each basket, aim, and score before checking it off. Examples include Jackal's Track northwest parking lot, Leonida State Prison's recreation yard, Fire Rescue Station 8, the eastern Lake Tallaloko property, the Bare With Me rooftop, Samba Place, and Bantam Boxing Gym. Different guides count shared courts differently; check the game's own counter when scoring at multiple baskets on one court. [Game Checklists](https://game-checklists.com/gta6/basketball-hoops-checklist/), [Push Square](https://www.pushsquare.com/guides/gta-6-basketball-hoop-locations), [The Games Wiki's numbered locations](https://thegameswiki.com/gta6/wiki/basketball-hoop-locations), and [GTA6Bugs county guide](https://gta6bugs.com/collectibles/basketball-hoops/).
+**Basketball Hoops** includes a hoop and ball location for each guide number from 0 to 99, including the four Hamlet Correctional baskets split between the prison wings and kitchen courts. Pick up the nearby ball, aim, and score before checking off that basket. The same court can have several numbered hoops. [The Games Wiki's numbered locations](https://thegameswiki.com/gta6/wiki/basketball-hoop-locations) and [GTA6Bugs county guide](https://gta6bugs.com/collectibles/basketball-hoops/).
 
 **Challenge milestones:** The game lists **80 named Challenges across 8 families of 10**: Combat, Criminal, Exploration, Fitness, Shopping, Sports, Survival, and Vehicle. Their full objectives are under **Progress > Challenges**. The companion tracks the **5/10 and 10/10 milestone for each family** and the overall **50/70/80** thresholds; it does not claim to store separate checkmarks for all 80. Published guides associate the family milestones with vehicle cheat unlocks. Cheat use remains gated behind story completion, and the app does not activate cheats. For the full named objectives, see the Challenge sources below.
 
@@ -346,6 +367,8 @@ The **22 Bank Jobs** comprise **14 small banks** and **8 large vaults**. Some ba
 **Related optional missions:** Billy, Andy/Cellerica, Tyrone, Yasmani, Dunk, Eddie Acosta, Shayna, and Yago have individual checklist steps under *Optional Missions*. Shayna's Lucia-only mission and Yago's timed race require prompt attention. Check the *That's Where The Money Is...* optional mission before attempting large vaults. These are not duplicated under *Secret Missions*.
 
 **Bank and racing tips:** Payout ranges are guide estimates, not guaranteed rewards. At small banks, search the drawer and safe; at large vaults, take the vault loot, drawer, and safe, and prepare for a higher wanted level. The 13 Unique Race Venue entries cover access points and unlock requirements; checking a venue does not mark every race held there as complete.
+
+**Gang Operation pickup tips:** The 39 operation entries now identify reported rare-weapon and Standout Vehicle pickups alongside their related watches, within their original checklists. Examples include the **Truth & Justice Caracara** at June Warehouse, **Smuggler Caracara** at Brooks Boatworks, **Firebug Dominator** at La Cascara Motel, **Searing Zombie Bobber** at Farm Fix Meth Lab, and **Royal Ruby Emerus** at Vespucci Mansion. The **Ashore** watch is also reported at Southside Trap House and Saber Shipping Facility; these are alternate acquisition sites, not separate model checkmarks. The **M7 Compound** is also called **Nova Auto Junkyard** in some guides. Safe combinations are guide-reported, and the Safe & Door Codes menu retains conflicting combinations where sources disagree. [PowerPyx operations list](https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/), [operation key valuables and codes](https://leonidaplayers.com/guides/gta-6-illegal-operations-all-gang-hideout-locations-loot-safe-codes), and [Insider Gaming pickup inventory](https://insider-gaming.com/all-illegal-operations-locations-key-valuables-in-gta-6/).
 
 ### Activities and robbery source guides
 
@@ -374,25 +397,28 @@ The vehicle sections describe the reported pickup area, the particular vehicle o
 
 ### Vehicle hunts
 
-**Randy's Wish List - 19 requests.** Find delivery vehicles using reported streets, buildings, parking areas, and mission hints. Examples include:
+**Randy's Wish List has 22 tracked requests.** Find delivery vehicles using reported streets, buildings, parking areas, and mission hints. Examples include:
 
 - **Windsor Drop:** luxury residential driveways in northern Capri.
 - **Ocelot Jugular:** outside BITE on Atlantic Avenue in Ocean Beach.
 - **Jubilee:** Shore Drive beachfront parking in Ocean Beach; northern Capri is also reported.
 - **Itali RSX:** a villa garage on Vespucci Island; an alternate Capri location is reported.
-- **Dubsta:** a reported Vice Beach parking area, without a confirmed specific lot.
+- **Dubsta:** check the **N1N Club** in Downtown, **N-X 94 Vice Car Repair** near VCIA, and hotel parking in Vice Beach or Ocean Beach.
 - **Baller ST-D:** beige residential driveways in northern Capri.
+- **Übermacht Cypher:** the Übermacht dealer in northern Southside or outside Cirque de Cuisine in Ocean Beach.
+- **Grotti Carbonizzare:** beneath Aurum Condominiums in Tequesta, at Status Auto Imports, or in northern Capri public parking.
+- **Pfister Neon:** the lakeside mansion north of Belville, Peacock Estates, or northern Capri luxury homes.
 - **Truffade Thrax:** a reported final Randy job at the Dalton Island Club parking area, accessible by ferry from Waxman Island. Its availability is mission-dependent.
 
 The game's **Map > Robberies** may offer more current hints for active jobs.
 
-**Moses Drop-Offs - 7 vehicles.** The guide covers the Chapter 2 story delivery and six further vehicle pickups, with drop-off instructions and activity clues.
+**Moses Drop-Offs has seven deliveries.** The guide covers the Chapter 2 story delivery and six further pickups. After delivering all seven, wait for Moses' text before collecting his **Emperor Sultan** at the Port Gellhorn shop. The reward has its own Standout Vehicle checkmark. [Collect Moses' Gift walkthrough](https://www.powerpyx.com/gta-6-collect-moses-gift-walkthrough/)
 
-**Wyman's Classic Cars - 5 restoration projects.** Find the reported 15 wreck parts and follow the final `'72 Deviant` pickup instructions. The collection is identified by guides as Ultimate Edition content.
+**Wyman's Classic Cars has four restoration projects and a fifth checkmark for the final '72 Deviant.** The four restoration entries give directions to 15 wreck parts. Guides identify this as Ultimate Edition content. **Updated access:** The Reynolds Kit Car's Wild Hog Point container needs the cut-off tool from Chapter 3 *Meet the Heders*. The four rebuilt cars cost $1,500 each after Wyman sends a BuckMe request; the final Deviant is a direct $1,000 offer (no fifth wreck search).
 
 ### Standout Vehicles
 
-The **105-entry vehicle catalog** covers distinctive cars, motorcycles, watercraft, liveries, and other unusual spawns. Each entry provides an available area, street, driveway, garage, yard, dock, or landmark clue.
+The **280-entry vehicle catalog** covers distinctive cars, motorcycles, aircraft, watercraft, liveries, and mission and stunt rewards. Entries give a pickup landmark, search area, or reward requirement where published.
 
 Examples:
 
@@ -400,28 +426,60 @@ Examples:
 | --- | --- |
 | **Imponte Ruiner Turbo** | Surfside Drive, Key Lento; residential driveway by a wooden fence. |
 | **Declasse Akane (anime wrap)** | Dolphin Drive, Key Lento; residential garage. |
+| **Annis Yago's Elegy (anime wrap)** | Reward from Chapter 3 Yago finale **Brother to Brother**; keep in garage after the mission. This is a different anime-themed car from the Akane. |
 | **Bravado Driveshaft Banshee** | Nova Auto Junkyard, Hamlet. |
 | **Bravado Revenant Gauntlet** | Barn in Ambrosia. |
 | **Maibatsu Penumbra FF** | Villa garage on Vespucci Island. |
 | **Vanessa's Pink Pfister Growler** | Del Rio Blvd pink-bow garage near Auntie's Place, La Perle. Before Chapter 3 ends, unlock the laptop with `MuffinsQueen15`, **read WhatsUp**, and enter garage code `92665`; missable. |
 | **Peacock Sovereign** | Garage behind a gas station in Capri. |
 | **Street Art Squalo** | Boat trailer near the northeast end of Sunset Drive, Key Lento. |
+| **BF Muckspreader Bandito** | Yellow container in a junkyard near Boone Speedway, south of Hamlet; use the Chapter 3 Cut-Off Tool. |
+| **Maibatsu Cellerica Caddy** | Green branded golf cart outside Conference Hall B, Belville Cellerica campus, during Lucia's *Peach!* initiation. |
 | **Vapid Driveshaft Hustler** | Dolphin Drive, near Jeb's Snack Bar in southeastern Key Lento. |
 | **Invetero Spiderweb Coquette** | Party-house garage in southeastern Key Lento; reported keypad code `092319`. |
 | **Seashark Sedna (Graffiti)** | Key Lento; the exact dock is unconfirmed. |
+| **Pfister Hornet Growler** | Middle section on the second level of an Ocean Beach parking garage. |
+| **Lapwing Blazing Mallard** | Bobcat Key airfield hangar. Look for the flame livery. |
+| **Buckingham Love Fist Shamal** | A hangar at Vice City International Airport. |
+| **Dundreary Sal's Chino** | Port Gellhorn reward for helping Sal fight the Kolts. |
+| **Calder Mosaic Dibnah** | Dalton Island dock. Look for the mosaic-patterned boat. |
+| **Maibatsu Camo Caddy** | Next to a hut in Buckskin Swamp. Look for camouflage and American flags. |
+| **Vapid Peppermint Stanier** | Outside a storefront in La Perle. Look for the pearlescent finish and oversized wheels. |
+| **Berserker Sanchez, Black Dragon Maverick and Black Dragon Mallard** | Reported rewards for Stunt Jumps, Under the Bridge and Knife Flights, respectively. |
 
-The **pink Pfister Growler** has a checkmark under Standout Vehicles; it is not a separate garage collectible. The **Gold Rush Tempesta** has conflicting published spawn clues: Crimson Palms Condominiums in Washington Beach and Cirque de Cuisine on Shore Drive. The catalog describes uncertain locations as reported alternatives rather than guaranteed spawns.
+**Acquisition tips:** The Street Art Squalo needs to be launched from its trailer. Bring the Chapter 3 Cut-Off Tool for the Muckspreader Bandito's shipping container. To see the Cellerica Caddy, progress Andy's Lucia-only missions through *Peach!* at the Belville campus.
+
+**Additional named Standouts and alternate locations (v1.9.5):** The catalog now includes the Cellerica Shamal at VCIA; Raul's Tempesta in the Scoop-container story job; Ultimate Edition Typhoon Squalo, Preziosa Cheetah and Wyman's restored reward vehicles; Memorial Sanchez; Thicc Esskey; GTA+ Venturas BLVD Elegy; and the Malibu Zombie Bobber. The earlier generic Phoenix is now correctly identified as **Blazin' Phoenix (existing ID 176)**, preserving its checkmark. **Seashell Boomazoom** is listed as an identified variant with no reliably documented pickup yet; it is not assigned a fabricated location.
+
+**Alternative pickup reports, one checkmark per vehicle:** Gold Rush Tempesta is reported outside **Cirque de Cuisine (Shore Drive, Ocean Beach)** or on the **upper covered parking deck of Crimson Palms Condominiums (Washington Beach)**; both reports call for the Chapter 3 Key Cloner, but may be conflicting descriptions of one car. Venomous Marshall has reported sightings at the **Boone Speedway car show (southwest Hamlet)** and in the **Land of Plenty barn (eastern Mount Kalaga)**; a third map marker lacks published directions. Guides mark two sites for **Erotic Journey** in Watson Bay and **Pink Licorice Astron** around Belville, without yet providing a dependable second address for either. The museum/VCPD recruitment display notes for Valiant Tempesta may identify the same location. Use WAiNK to confirm identity, and never create extra progress entries solely for additional pins.
+
+**Edition and reward distinction:** Wyman's Classic Cars entries track salvage and restoration tasks; the named restored Standouts track the resulting vehicles. The garage entries for **Paradise Garage** and **GTA+ Crosstown Garage** track property access, while the corresponding unique vehicles are listed by name in Standout Vehicles. Ultimate Edition and GTA+ rewards require the appropriate entitlement, and some unlock only in later chapters.
+
+**Anime vehicle notes:** The Akane on Dolphin Drive is reportedly unlocked and has no tracker; a mod-shop replacement livery may permanently remove its anime wrap. Yago's Elegy is not a free roadside pickup: finish his four-part Jason storyline, including the time-sensitive *Race Against Yago* hourglass mission, and keep the final mission car. Bumper to Bumper requires the Custom Street Racing Build and Nitrous Boost (paid by Yago).
+
+The **pink Pfister Growler** has a checkmark under Standout Vehicles; it is not a separate garage collectible. The **Gold Rush Tempesta** has conflicting published spawn clues at Crimson Palms Condominiums in Washington Beach and Cirque de Cuisine on Shore Drive. Compare the **Gold Tempesta lead** with the Gold Rush WAiNK name and livery before checking them as two different vehicles.
 
 ### Garages and safehouses
 
-**Garages** covers **15 purchase, story, and membership/edition entries**, including published prices, storage capacity, access conditions, and benefits: eight purchasable garages, four story rewards, and three edition or GTA+ benefits. **Houses / Cribs** lists **4 story safehouses**, with their general locations, story unlocks, and facilities.
+**Garages** covers **15 purchase, story, and membership/edition entries**, including published prices, storage capacity, access conditions, and benefits: eight purchasable garages, four story rewards, and three edition or GTA+ benefits. **Houses / Cribs** lists **five story safehouses**, including the Chapter 5 **Pegassi Residences penthouse** on Bayside Dr, Tequesta Retreat. Its three-slot garage has its own entry under Garages. [Safehouse map pin](https://www.gtabase.com/gta-6/map/?feature=safehouses#safehouse-006)
 
 ### Vehicle and property sources
 
+- [GTA Base - Muckspreader Bandito](https://www.gtabase.com/gta-6/vehicles/muckspreader-bandito), [GTA6Wiki - Street Art Squalo](https://gta6wiki.eu/vehicles/street-art-squalo/), [PowerPyx - Peach! initiation](https://www.powerpyx.com/gta-6-peach-join-the-cellerica-initiation-walkthrough/), and [GTA6 GPS - vehicle access notes](https://gta6gps.com/map/game/unique-vehicles).
+- [GAMETA - mapped Standout Vehicles and named variants](https://gameta.gg/gta6/map/standout-vehicles/); [Ultimate Edition vehicle and reward timing](https://gameta.gg/gta6/guides/ultimate-edition-items/); [GTA Base - Standout locations](https://www.gtabase.com/gta-6/map/?feature=standout-vehicle).
+- [GTA6Wiki - competing Gold Rush Tempesta pickup sites](https://gta6wiki.eu/vehicles/gold-rush-tempesta/); [GTA6Wiki - Venomous Marshall](https://gta6wiki.eu/vehicles/venomous-marshall/); [GTA Base - Crosstown GTA+ bundle](https://www.gtabase.com/gta-6/properties/gta-plus-crosstown-garage).
+- [Malibu Zombie Bobber portal walkthrough](https://www.keengamer.com/articles/guides/how-to-open-the-vice-city-portal-in-gta-6-and-get-tommy-vercettis-shirt/); [GTA Base - Malibu Zombie Bobber](https://www.gtabase.com/gta-6/vehicles/malibu-zombie-bobber).
+- [Akane anime-car pickup report](https://www.aprasi.com/blogs/trending-topics/gta-6-akane-anime-car) (single-guide security/wrap details; verify in-game).
+- [GTA Base - Yago's Elegy](https://www.gtabase.com/gta-6/vehicles/yagos-elegy), [PowerPyx - Bumper to Bumper](https://www.powerpyx.com/gta-6-bumper-to-bumper-mentor-yago-walkthrough/), [PowerPyx - Race Against Yago](https://www.powerpyx.com/gta-6-race-against-yago-walkthrough/), and [PowerPyx - Brother to Brother](https://www.powerpyx.com/gta-6-brother-to-brother-back-up-yago-walkthrough/).
+- [PC Gamer - Wyman Transgressor](https://www.pcgamer.com/games/grand-theft-auto/gta-6-transgressor-locations/), [Riata](https://www.pcgamer.com/games/grand-theft-auto/gta-6-riata-locations/), [Mamba GT](https://www.pcgamer.com/games/grand-theft-auto/gta-6-mamba-gt-locations/), and [Kit Car](https://www.pcgamer.com/games/grand-theft-auto/gta-6-kit-car-locations/); [GTA Base - GTA+ Crosstown Garage](https://www.gtabase.com/gta-6/properties/gta-plus-crosstown-garage).
 - [Push Square - Moses vehicle drop-offs](https://www.pushsquare.com/guides/gta-6-moses-vehicle-drop-off-locations) and [PowerPyx - Moses walkthrough](https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/).
 - [Push Square - Randy's Wish List](https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations), [Radio Times - Randy's vehicle locations](https://www.radiotimes.com/technology/gaming/gta-6-randys-wishlist-cars/), [GTA Base - vehicle requests](https://www.gtabase.com/gta-6/map/?feature=vehicle-request), and [GTA6Map - Randy markers](https://gta6map.io/location/randy-wish-list).
+- [AllGTA World - Randy parking leads](https://allgtaworld.com/guides/gta-6-randy-wish-list), [GTA6Values - Capri parking leads](https://www.gta6values.com/randys-wish-list/), and [Game Secret - Cirque de Cuisine sighting](https://game-secret.com/guides/grand-theft-auto-vi/all-randys-wish-list-vehicle-locations-in-gta-6/).
 - [PowerPyx - trophies and vehicle-request context](https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/).
 - [GTA Base - standout vehicles map](https://www.gtabase.com/gta-6/map/?feature=standout-vehicle) and [GTA6Map - standout locations](https://gta6map.io/location/standout-vehicle).
+- [MetaForge - Standout pickups and access](https://metaforge.app/gta-6/gta-6-standout-vehicles-locations).
+- [GAMETA - Berserker Sanchez](https://gameta.gg/gta6/vehicles/berserker-sanchez/), [Black Dragon Maverick](https://gameta.gg/gta6/vehicles/black-dragon-maverick/), and [Black Dragon Mallard](https://gameta.gg/gta6/vehicles/black-dragon-mallard/).
+- [PowerPyx - Hamlet impound Phoenix](https://www.powerpyx.com/gta-6-unwanted-attention-go-see-cal-walkthrough/) and [GTA6 House - Halifax's '32 Hustler](https://gta6.house/library/vehicles/vapid-32-hustler).
 - [The Games Wiki - Driveshaft Hustler](https://thegameswiki.com/gta6/wiki/driveshaft-hustler), [Spiderweb Coquette](https://thegameswiki.com/gta6/wiki/invetero-spiderweb-coquette), and [Wyman's cars](https://thegameswiki.com/gta6/wiki/wymans-cars).
 - [GTA Base - garages](https://www.gtabase.com/gta-6/articles/how-to-unlock-garages-in-gta-6), [Leonida Waypoint - properties](https://leonidawaypoint.com/database/properties), and [Output Lag - safehouses](https://outputlag.com/guides/gta-6-safehouses/).
 
@@ -445,9 +503,9 @@ The app displays codes and instructions; it does not send controller inputs. Scr
 
 ## Mock Loaders
 
-The **Mock Loaders** gallery displays **45 full-screen images**: **30 GTA VI** scenes and **15 Dungeons & Dolphins** scenes. In the gallery, press **Left** or **Right** to browse images and **Back** to exit.
+The app ships **45 full-screen images**, with **30 GTA VI** scenes and **15 Dungeons & Dolphins** scenes. The gallery browses the enabled sets. Press **Left** or **Right** to switch images and **Back** to exit.
 
-**Mock Loader Settings** offers separate toggles for the GTA VI and Dungeons & Dolphins sets. Use **Up/Down** to choose a set and **OK** to enable or disable it. By default the GTA VI collection is enabled and Dungeons & Dolphins is disabled.
+**Mock Loader Settings** offers separate toggles for the GTA VI and Dungeons & Dolphins sets. Use **Up/Down** to choose a set and **OK** to enable or disable it. The default gallery shows GTA VI. Enable Dungeons & Dolphins to add its 15 images. Disabling both sets displays **No sets enabled** in the gallery.
 
 When the app launches, it shows a **random image from the enabled collection(s) for 0.5 seconds**, then opens the main menu. If both sets are disabled, the main menu appears without a splash. Image files are loaded individually for display.
 
