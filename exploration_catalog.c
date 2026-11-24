@@ -27,7 +27,7 @@ static const GtaExploreSection waink[] = {
     GTA_LEAF("Landmarks", "landmarks", 31, "Scanned"),
     GTA_LEAF("Curiosities", "curiosities", 35, "Scanned"),
     GTA_LEAF("Sculptures", "sculptures", 23, "Scanned"),
-    GTA_LEAF("No Flusher Tags", "no_flusher", 0, "Scanned"),
+    GTA_LEAF("No Flusher Tags", "no_flusher", 15, "Scanned"),
     GTA_LEAF("Peewees Billboards", "peewees", 4, "Scanned"),
 };
 
@@ -67,6 +67,9 @@ static const GtaExploreSection activity_robberies[] = {
     GTA_LEAF("Payday Loan Jobs", "payday_loans", 7, "Robbed"),
     GTA_LEAF("Fence Sale Milestones", "fence_goals", 4, "Reached"),
     GTA_LEAF("Challenge Milestones", "challenge_milestones", 19, "Reached"),
+    GTA_LEAF("Challenge Objectives", "challenge_objectives", 80, "Completed"),
+    GTA_LEAF("Bret's Target Decks", "bret_target_decks", 15, "Completed"),
+    GTA_LEAF("Legendary Animals", "legendary_animals", 11, "Logged"),
     GTA_LEAF("Smash and Grabs", "smash_grabs", 35, "Robbed"),
     GTA_LEAF("Stick-Up Leads (partial)", "stickup_leads", 91, "Checked"),
     GTA_LEAF("Drone Time Trials", "drone_trials", 42, "Completed"),
@@ -80,7 +83,7 @@ static const GtaExploreSection activity_robberies[] = {
     GTA_LEAF("Hoop Search Leads", "basketball_hoop_leads", 0, "Checked"),
 };
 const GtaExploreSection gta_explore_sections[] = {
-    GTA_LEAF("Special Weapons", "special_weapons", 43, "Acquired"),
+    GTA_LEAF("Special Weapons", "special_weapons", 117, "Acquired"),
     GTA_GROUP("Collectible Cards", card_sets),
     GTA_GROUP("WAiNK Locations", waink),
     GTA_GROUP("AHOL Street Art", ahol),

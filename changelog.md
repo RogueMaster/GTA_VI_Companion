@@ -1,5 +1,52 @@
 # GTA VI Companion changelog
 
+## v1.9.7 — Collection and Secret Mission Updates
+- Added nine guide-reported Cocaine Flamingo search areas (57 total), including Hamlet, Port Gellhorn, Buckskin Swamp and the coast south of Waning Sands; refined ten existing entries with street, building and alternate map clues. Updated Regional Dispatch.
+- Added two reported meteorite sites (72 total) at Hyde Island and Featherstone; expanded existing Key Lento and Mount Kalaga directions.
+- Added Island Poacher FF-50 as an individual Special Weapons pickup (64 total); expanded the existing Hyde Island Manhunt with alternate entry, retry, gear retrieval and reported reward.
+- Added Royal Ruby Emerus gate-release instructions and clarified the Palmer warehouse gold KZ-59 pickup and safe clue.
+- Refined the Backrooms access and navigation, clarified active-character stamina and tattoo reward, and expanded Kyle chemical delivery options and Bret deer hunting instructions.
+- Preserved existing progress IDs, cheat inputs, menu order and save format.
+- Added 42 guide-reported Special Weapons entries (106 total), including 23 store-specific variants, hidden pickups, edition rewards and the missable Don Gone revolver. Identified the existing bunker Type 9 as Conspiracist Type 9; expanded paired weapon locations.
+- Expanded Gold Scarab Windsor specifications and two existing vehicle price/access descriptions; documented the shorter reported Attack Force alternative without replacing the primary code.
+- Expanded Andrew Node's Thrax with the Chapter 3 No Flusher headquarters clue route, conflicting keypad reports, and mansion access notes; retained ID 212 and all 15 scan IDs. Added the early phone-clipping garage entry method, normal registration and reported free Chapter 2 Moses tutorial registration; noted patch sensitivity.
+- Added 11 Legendary Animals entries covering nine Snapmatic hunts and two rare creatures; clarified the separate eight-animal challenge.
+- Added Brainwasher 1922 (107 Special Weapons), Brainwashed, plumber hats, Haymarket clown and Andrew Node walkthroughs (35 Secret Missions); added three access/puzzle credentials and eight variable bank-code examples (63 Safe & Door Codes). Refined diving controls and Avery Pawn alternatives.
+- Added five guide-reported Special Weapons (112 total), including Gun Nut SMS-01, two Chapter 3 missable pistols, Caminos Signature K17 and Mahi Nipper .38; added Royal Bay Marina variable safe clue (64 codes) and Marbelle Hotel fog walkthrough (36 Secret Missions). Expanded existing card, publication, bottle, watch and underwater directions; added Chapter 2 missable and free-registration tips.
+- Expanded Chatfield 5800, Quarter Mile ES9, Purple Drank Emerus and spy-vessel pistol instructions; added Pocketblast DSG (113 Special Weapons), three mapped meteorite search areas (75 total), a four-Up Body Armor alternate report, and more flamingo, diving, shooting-range and hunting details.
+- Added the reported Rodgers Ranch Market Range Beginner quit-and-repeat method for permanent Focus leveling, with instructions in Quick guide / warnings, Shooting Gold Medals and the Unlimited Focus cheat description.
+- Added six map-reported Cocaine Flamingo locations (63 total), four meteorite search areas (79 total), and four named Special Weapons (117 total). Added Misericordia game-map coordinates, refined the first two Bret decks, and preserved existing progress IDs and published cheat inputs.
+
+## v1.9.6 — Vehicles and Collection Updates
+- Added four reported safe/door combinations (Chatfield 5800, Biker Hideout 1982, Stormy 7869, Big Day Motel 4242); documented Cottonmouth 44017 versus shortened 4017 and Palmer 1886/1887 discrepancies, with existing collection IDs and progress unchanged. Enriched eight Flamingo routes, Bret hunting conditions, and linked gang-operation, weapon and card locations.
+- Enriched existing collectible-card, publication, meditation, meteorite and Challenge entries with detailed pickup routes, alternate-copy handling and Master shooting-range requirements.
+- Corrected Collections progress total to include Piccia Furia (ID 28), which was already tracked but omitted from the summary count; existing checkmarks and IDs are unchanged.
+- Added room-by-room Luxury Watch and gang-operation access routes, and cross-linked publication/card pickups at shared locations.
+- Improved Selkie Hole and Belville meteorite directions, and clarified Del Ocio's detector search and ten-doubloon clearing requirement without adding speculative wrecks.
+- Added collection-wide completion totals and percentage to the end of Quick guide / warnings, using saved checklist progress.
+- Added a checklist of all **80 named Challenge objectives**, grouped by game category with individual goals; retained the existing 19 challenge milestones and their saved checkmarks.
+- Added the first three location-documented **Bret Target Decks** with target species, hunting areas and carcass-quality tips; retained Bret's existing optional-mission entry and documented the remaining unmapped decks as incomplete research.
+- Corrected the No Flusher Tags collection total to **15**, matching the 15 existing WAiNK scan records without duplicating scans.
+- Added Lucia's **Buzz Cut** magazine-style pickup in Hamlet to the existing Lucia styles catalog, using its own progress ID.
+- Expanded the Bret Vogel mission's in-app guidance and updated the README to distinguish fully enumerated objectives from partially mapped discoveries.
+- Added all remaining twelve numbered Bret Target Deck checklists (15 total), preserving the first three named contracts and avoiding unsupported animal/spawn claims.
+- Added separate Watson Bay Cocaine Flamingos in the table-top room and candlelit east-side building (43 mapped pickups total).
+- Expanded all six existing Underwater Discoveries with wreck-specific relic or doubloon search directions, without changing wreck IDs or adding unverified discoveries.
+- Located all six Cinco Torres treasures and completed the individual La Noche, Santa Sierra and Lujuriosa search notes under the original Kenton sets.
+- Added Del Ocio search areas and clarified that its ten doubloons may be recovered in fewer digs; the story wreck remains separate from Kenton's seven sets.
+- Clarified timed, weapon, location and completion conditions for selected entries in the existing 80 Challenge objectives; retained all 19 milestone checkmarks.
+- Added 19 individually tracked Special Weapons variants, including the San4San and Marabunta Grande KZ-59 rifles, bringing the catalog to **62**; expanded gang-operation pickup directions and distinguished weapons from nearby cash safes.
+- Added Cigar Import Front door code `1426` (**51** code entries), expanded safe landmarks and Pelican Valley loot details, and clarified variable Avery Pawn and alien-lab codes plus robbery Focus Mode instructions.
+- Updated collection completion totals and README counts while retaining existing checklist IDs.
+- Added 15 Secret Missions and Easter egg walkthroughs (31 total), including the Backrooms, Backyard Wrestling, full Vice City Portal switch order, Burg Industries and the Key Lento rainy-day fund.
+- Added two reported underwater discoveries, two meteorite pickups and the Belpoint lighthouse flamingo; added safe code 80085 and expanded Kenton and Bret directions.
+- Added reported resale and registration prices to 20 Standout Vehicles and an alternate Revenant Gauntlet search area.
+- Added Videotape and Dark Mirror filter inputs, corroborated by PC Gamer and GamesRadar+ (21 published inputs); retained Pinhole and screenshot reports.
+- Added Cursed Knife (63 special weapons), lighthouse ghost and SOS Island walkthroughs, two hidden trophies, Tenebrae Lux puzzle instructions, and expanded Backrooms, wrestling, portal and Bret hunting directions.
+- Added the Royal Sanchez Standout (281 vehicle entries); expanded container routes for the Cuban Hermes, Blue Drake Penumbra and Caliente Picador.
+- Added four reported Cocaine Flamingo sites (48 total), ten meteorite search locations (70 total), alternate shoreline/lawn clues and additional Burg Industries directions; expanded Regional Dispatch and collection totals.
+- Clarified Bret carcass delivery and the reported Fair Game panther encounter; documented three conflicting Dexerto controller sequences without replacing the corroborated inputs.
+
 ## v1.9.5 — Fences
 - Added seven individually checkable Fences under Collections, immediately before Endings, sorted by chapter unlock: Brian, Donnie, Moses, Dunk, Tyrone, Yasmani and Randy.
 - Added unlock missions, selling locations, goods accepted, story-related availability and delayed/direct payment details.

@@ -612,13 +612,26 @@ static void gta_guide(GtaApp* app) {
         "Optional Missions are a separate Collections checklist; Cal and Kirk already appear "
         "in Secret Missions. Messages in Bottles are optional reading, not part of 34 books "
         "and swaps. Extra unique weapon names are guide-reported, not game-verified.\n\n"
+        "Missables: keep a manual save before Tourist Trap (C1) and Checking Out (C2). "
+        "In C2 pay Linda before Slam Dunk, collect Starlet Motel cards and books, and help Wyman "
+        "at his car before moving. In C3 take Gil's pistol in Safe Word and Monty's pistol in The Missing Link. "
+        "Pete's rifle is a C4 mission pickup.\n\n"
+        "Moses: during Take a Vehicle to Moses (C2), bring an eligible tracker-free car for one free registration. "
+        "Bison has six cargo slots, Dominator two; Montagne XL waits behind Watkins Auto Parts. "
+        "Confirm Register shows Free before accepting. See Thrax for reported early access.\n\n"
+        "Fast Focus leveling: Rodgers Ranch Shooting Range, northeast Port Gellhorn (Kelly County). "
+        "Buy the $5 waiver and choose Market Range Beginner. Hit all six targets (about 5 sec). "
+        "Select Quit and back out to the range, then start again. Do NOT choose Restart on results. "
+        "Each exit is reported to grant permanent Focus; gains vary. Check Jason & Lucia > character > "
+        "purple eye stat until Level 4. Repeat for the other character after Coffee Break (C2). "
+        "No cheat activation needed. Patch behavior may change. See Shooting Gold Medals.\n\n"
         "Dispatch: pick a region for unchecked deliveries and collectibles. "
         "OK checks or undoes a stop. Right opens the next stop. "
         "Back returns to the region menu.\n\n"
         "61 GTA VI effects reported by game guides, but most inputs remain unpublished. "
         "[?] marks entries without a code.\n\n"
-        "19 inputs are corroborated in PS5 and Xbox guides, including Drunk. "
-        "Open Pinhole [report] under Filters for a single-source input. "
+        "21 inputs are corroborated in PS5 and Xbox guides, including Drunk. "
+        "Pinhole [report] under Filters has a single-source input. "
         "The app labels it unverified.\n\n"
         "To use: finish the story and the individual cheat's unlock challenge. "
         "Check Progress > Cheats. In free roam press D-pad Up to open phone. "
@@ -631,6 +644,30 @@ static void gta_guide(GtaApp* app) {
         "Effect matches do NOT verify the test inputs. "
         "Xbox equivalents are button-label conversions, not separately sourced codes. "
         "TRI=Triangle CIR=Circle SQR=Square; U/D/L/R=direction.");
+
+    size_t total_items = 0;
+    size_t completed_items = 0;
+    if(gta_companion_progress_summary(app->companion, &total_items, &completed_items)) {
+        /* Hundredths of a percent, rounded: no floating-point printf needed. */
+        const uint32_t progress =
+            total_items ? (uint32_t)((completed_items * 10000u + total_items / 2u) / total_items) :
+                          0u;
+        furi_string_cat_printf(
+            app->content,
+            "\n\nTotal Collection Items: %lu\n"
+            "Total Items Completed: %lu\n"
+            "Progress: %lu.%02lu%%",
+            (unsigned long)total_items,
+            (unsigned long)completed_items,
+            (unsigned long)(progress / 100u),
+            (unsigned long)(progress % 100u));
+    } else {
+        furi_string_cat_printf(
+            app->content,
+            "\n\nTotal Collection Items: Unavailable\n"
+            "Total Items Completed: Unavailable\n"
+            "Progress: Unavailable");
+    }
     gta_show_text(app, ScreenGuide);
 }
 static void gta_money_glitch(GtaApp* app) {
@@ -763,15 +800,16 @@ static void gta_safe_tips(GtaApp* app) {
         "This list collects published fixed or reported combinations. "
         "Not all map safes have a reusable code. Many ordinary store and bank robbery "
         "safes change the code between runs or saves. Some mission codes also vary.\n\n"
-        "Find the clue: search the office, notepad, map, wall, computer, "
-        "guard or employee. Use Focus mode to highlight evidence. "
-        "You can threaten an employee for the current safe code when available.\n\n"
+        "Find the clue: check back-office notes, whiteboards, maps, computers or guards. "
+        "Press L3 + R3 (both sticks) to activate Focus Mode. "
+        "Use the Safe Code? dialogue prompt during a robbery when available. "
+        "Check Notes on the keypad if you already collected the clue.\n\n"
         "If a code fails, do not assume a game bug; check your local clue. "
         "Retain every leading zero. Some keypads accept five or six digits, "
         "and some computers accept words.\n\n"
         "Sticky bombs can force open some safes but attract enemies or police. "
         "Locked mission doors and garage keypads may not respond to explosives.\n\n"
-        "Entries are based on guides available 21 Nov 2026 and have not "
+        "Entries are based on published guides through 24 Nov 2026 and have not "
         "been independently tested by this app's maintainers.");
     gta_show_text(app, ScreenSafeTips);
 }
