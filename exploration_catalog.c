@@ -99,8 +99,8 @@ static const GtaExploreSection cocaine_flamingos[] = {
 const GtaExploreSection gta_explore_sections[] = {
     GTA_GROUP("Special Weapons", special_weapons),
     GTA_LEAF("1010 Murals", "murals", 5, "Scanned"),
-    GTA_GROUP("AHOL Street Art", ahol),
     GTA_GROUP("Activities / Robberies", activity_robberies),
+    GTA_GROUP("AHOL Street Art", ahol),
     GTA_LEAF("Base Jumps", "base_jumps", 25, "Completed"),
     GTA_LEAF("Book Swaps", "book_swaps", 7, "Swapped"),
     GTA_GROUP("Cocaine Flamingos", cocaine_flamingos),

@@ -56,15 +56,15 @@ enum {
 };
 
 const char* const gta_dispatch_assets[] = {
-    "book_swaps.tsv",     "cards_01.tsv",     "cards_02.tsv",     "cards_03.tsv",
-    "cards_04.tsv",       "cards_05.tsv",     "cards_06.tsv",     "cards_07.tsv",
-    "cards_08.tsv",       "cards_09.tsv",     "cards_10.tsv",     "cards_11.tsv",
-    "cards_12.tsv",       "cards_13.tsv",     "cards_14.tsv",     "cards_15.tsv",
-    "cards_16.tsv",       "cards_17.tsv",     "cards_18.tsv",     "curiosities.tsv",
-    "flamingos.tsv",      "kenton.tsv",       "landmarks.tsv",    "meditations.tsv",
-    "murals.tsv",         "no_flusher.tsv",   "publications.tsv", "sculptures.tsv",
-    "sniper_posters.tsv", "styles_jason.tsv", "styles_lucia.tsv", "tattoos.tsv",
-    "underwater.tsv",     "vault_poster.tsv", "watches.tsv",      "ahol_pieces.tsv",
+    "book_swaps.tsv",       "cards_01.tsv",        "cards_02.tsv",     "cards_03.tsv",
+    "cards_04.tsv",         "cards_05.tsv",        "cards_06.tsv",     "cards_07.tsv",
+    "cards_08.tsv",         "cards_09.tsv",        "cards_10.tsv",     "cards_11.tsv",
+    "cards_12.tsv",         "cards_13.tsv",        "cards_14.tsv",     "cards_15.tsv",
+    "cards_16.tsv",         "cards_17.tsv",        "cards_18.tsv",     "curiosities.tsv",
+    "flamingos.tsv",        "kenton.tsv",          "landmarks.tsv",    "meditations.tsv",
+    "murals.tsv",           "no_flusher.tsv",      "publications.tsv", "sculptures.tsv",
+    "sniper_posters.tsv",   "styles_jason.tsv",    "styles_lucia.tsv", "tattoos.tsv",
+    "underwater.tsv",       "vault_poster.tsv",    "watches.tsv",      "ahol_pieces.tsv",
     "flamingos_inland.tsv", "flamingos_north.tsv",
 };
 
