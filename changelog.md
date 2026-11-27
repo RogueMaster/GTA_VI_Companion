@@ -1,5 +1,15 @@
 # GTA VI Companion changelog
 
+## v2.0.1 — Collections and Gameplay Guides
+- Expanded collectible pickup and access details for all 18 card sets, flamingos, meteorites, AHOL artwork, wildlife, styles, watches and search leads; added card identification and resale information while retaining existing identities and progress IDs.
+- Expanded all 130 stunt jumps, 202 bridge crossings, 40 knife flights and 25 BASE jumps; added illustrated routes, county and landmark comparisons, and clarified shared completion tracking.
+- Expanded Standout Vehicles with named variants, performance tiers, numeric ratings, set membership, tracker and registration details; refined Randy, Moses and Wyman acquisition and delivery instructions.
+- Expanded special weapon acquisition, safe and door codes, optional missions, Easter eggs, endings, wildlife encounters and Quick Guide information, including registration, bag overfill and Max Focus methods.
+- Completed published route coverage for 33 underwater discoveries and 41 Kenton relics; refined dive landmarks, treasure rewards and discovery conditions.
+- Expanded activities and robbery information, including bank and store classifications, challenge targets, publications, Book Swaps, basketball, gang operations and the Kitty Litter route.
+- Completed scan-facing, approach and reward instructions for all four Peewees billboards; clarified the ten-scan No Flusher quest threshold and preserved all 15 tag entries.
+- Streamlined documentation, moved supplementary source links to more_sources.md and retained detailed catalog maintenance notes in extra.md. Existing progress IDs, save compatibility and NFC link catalogs are preserved.
+
 ## v2.0 — Expanded Location References and Gameplay Guides
 - Fixed collection TSV paragraph rendering and Dispatch controls; expanded wildlife encounter and map leads, 55 reported card sale values and five Kenton set payouts (500 catalog research additions; existing IDs retained); added 306 approximate map coordinate pairs and 194 variant-specific numerical/comparative vehicle ratings (500 further research additions).
 - Expanded item-level maps, pickup and access guides across collectibles, vehicles, weapons, styles, missions and activities; completed references for all 480 named cards, unified the 100-hoop collection, clarified meteorite and card pickup details, distinguished flamingo aliases, shared markers and multi-figure sites, cross-referenced uncertain locations, and added county labels, area sweep references, card-menu positions and sibling-variant references.
